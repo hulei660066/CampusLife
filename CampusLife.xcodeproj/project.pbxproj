@@ -7,26 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2435388ABE3A1DC3873F9190 /* libPods-CampusLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5CD205C89AA4D367571115 /* libPods-CampusLife.a */; };
 		3D0957091B43F8D5005D7932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0957081B43F8D5005D7932 /* main.m */; };
 		3D09570C1B43F8D5005D7932 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D09570B1B43F8D5005D7932 /* AppDelegate.m */; };
 		3D09570F1B43F8D5005D7932 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D09570E1B43F8D5005D7932 /* ViewController.m */; };
 		3D0957121B43F8D5005D7932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957101B43F8D5005D7932 /* Main.storyboard */; };
 		3D0957141B43F8D6005D7932 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957131B43F8D6005D7932 /* Images.xcassets */; };
 		3D0957171B43F8D6005D7932 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957151B43F8D6005D7932 /* LaunchScreen.xib */; };
-		3D0957231B43F8D6005D7932 /* CampusLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0957221B43F8D6005D7932 /* CampusLifeTests.m */; };
+		3D0957301B43FC3C005D7932 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D09572E1B43FC3C005D7932 /* home.png */; };
+		3D0957311B43FC3C005D7932 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D09572F1B43FC3C005D7932 /* new.png */; };
+		3D09573A1B4401D0005D7932 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0957391B4401D0005D7932 /* HomeViewController.m */; };
+		3D0957401B4404EB005D7932 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09573F1B4404EB005D7932 /* CoreText.framework */; };
+		3D0957421B4404F9005D7932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0957411B4404F9005D7932 /* UIKit.framework */; };
+		3D0957441B440501005D7932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0957431B440501005D7932 /* Foundation.framework */; };
+		3D0957461B440548005D7932 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D0957451B440548005D7932 /* libxml2.dylib */; };
+		3D09578B1B44488F005D7932 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0957881B44488F005D7932 /* Post.m */; };
+		3D09578C1B44488F005D7932 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D09578A1B44488F005D7932 /* User.m */; };
+		3D0957901B44497D005D7932 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D09578F1B44497D005D7932 /* AFAppDotNetAPIClient.m */; };
+		3D0957941B444AFC005D7932 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0957931B444AFC005D7932 /* PostTableViewCell.m */; };
+		3D09579A1B44C410005D7932 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957961B44C410005D7932 /* Icon.png */; };
+		3D09579B1B44C410005D7932 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957971B44C410005D7932 /* Icon@2x.png */; };
+		3D09579C1B44C410005D7932 /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957981B44C410005D7932 /* profile-image-placeholder.png */; };
+		3D09579D1B44C410005D7932 /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0957991B44C410005D7932 /* profile-image-placeholder@2x.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3D09571D1B43F8D6005D7932 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D0956FB1B43F8D5005D7932 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D0957021B43F8D5005D7932;
-			remoteInfo = CampusLife;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		18D10ADD4332FB4432686707 /* Pods-CampusLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusLife/Pods-CampusLife.release.xcconfig"; sourceTree = "<group>"; };
+		3A5CD205C89AA4D367571115 /* libPods-CampusLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CampusLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0957031B43F8D5005D7932 /* CampusLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0957071B43F8D5005D7932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D0957081B43F8D5005D7932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,9 +44,28 @@
 		3D0957111B43F8D5005D7932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D0957131B43F8D6005D7932 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3D0957161B43F8D6005D7932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3D09571C1B43F8D6005D7932 /* CampusLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D0957211B43F8D6005D7932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D0957221B43F8D6005D7932 /* CampusLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampusLifeTests.m; sourceTree = "<group>"; };
+		3D09572E1B43FC3C005D7932 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		3D09572F1B43FC3C005D7932 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		3D0957381B4401D0005D7932 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3D0957391B4401D0005D7932 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3D09573C1B4404BC005D7932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D09573F1B4404EB005D7932 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3D0957411B4404F9005D7932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D0957431B440501005D7932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D0957451B440548005D7932 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3D0957871B44488F005D7932 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		3D0957881B44488F005D7932 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		3D0957891B44488F005D7932 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		3D09578A1B44488F005D7932 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		3D09578E1B44497D005D7932 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		3D09578F1B44497D005D7932 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		3D0957921B444AFC005D7932 /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		3D0957931B444AFC005D7932 /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		3D0957961B44C410005D7932 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3D0957971B44C410005D7932 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3D0957981B44C410005D7932 /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
+		3D0957991B44C410005D7932 /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
+		8FE67A05AAC3C426809D7203 /* Pods-CampusLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusLife/Pods-CampusLife.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,13 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D0957191B43F8D6005D7932 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3D0957461B440548005D7932 /* libxml2.dylib in Frameworks */,
+				3D0957441B440501005D7932 /* Foundation.framework in Frameworks */,
+				3D0957421B4404F9005D7932 /* UIKit.framework in Frameworks */,
+				3D0957401B4404EB005D7932 /* CoreText.framework in Frameworks */,
+				2435388ABE3A1DC3873F9190 /* libPods-CampusLife.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,8 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				3D0957051B43F8D5005D7932 /* CampusLife */,
-				3D09571F1B43F8D6005D7932 /* CampusLifeTests */,
+				3D09572D1B43FC29005D7932 /* Resources */,
+				3D09573E1B4404D2005D7932 /* Frameworks */,
 				3D0957041B43F8D5005D7932 /* Products */,
+				7FE3201FCC395A58F2B3B6D5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				3D0957031B43F8D5005D7932 /* CampusLife.app */,
-				3D09571C1B43F8D6005D7932 /* CampusLifeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,42 +106,87 @@
 		3D0957051B43F8D5005D7932 /* CampusLife */ = {
 			isa = PBXGroup;
 			children = (
-				3D09570A1B43F8D5005D7932 /* AppDelegate.h */,
-				3D09570B1B43F8D5005D7932 /* AppDelegate.m */,
-				3D09570D1B43F8D5005D7932 /* ViewController.h */,
-				3D09570E1B43F8D5005D7932 /* ViewController.m */,
+				3D09578D1B444973005D7932 /* Networking Extensions */,
+				3D0957481B440698005D7932 /* HomeClass */,
 				3D0957101B43F8D5005D7932 /* Main.storyboard */,
-				3D0957131B43F8D6005D7932 /* Images.xcassets */,
-				3D0957151B43F8D6005D7932 /* LaunchScreen.xib */,
-				3D0957061B43F8D5005D7932 /* Supporting Files */,
+				3D0957951B444CA2005D7932 /* Supporting Files */,
 			);
 			path = CampusLife;
 			sourceTree = "<group>";
 		};
-		3D0957061B43F8D5005D7932 /* Supporting Files */ = {
+		3D09572D1B43FC29005D7932 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3D0957071B43F8D5005D7932 /* Info.plist */,
+				3D0957961B44C410005D7932 /* Icon.png */,
+				3D0957971B44C410005D7932 /* Icon@2x.png */,
+				3D0957981B44C410005D7932 /* profile-image-placeholder.png */,
+				3D0957991B44C410005D7932 /* profile-image-placeholder@2x.png */,
+				3D09572E1B43FC3C005D7932 /* home.png */,
+				3D09572F1B43FC3C005D7932 /* new.png */,
+			);
+			name = Resources;
+			path = CampusLife;
+			sourceTree = "<group>";
+		};
+		3D09573E1B4404D2005D7932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D0957451B440548005D7932 /* libxml2.dylib */,
+				3D0957431B440501005D7932 /* Foundation.framework */,
+				3D0957411B4404F9005D7932 /* UIKit.framework */,
+				3D09573F1B4404EB005D7932 /* CoreText.framework */,
+				3D09573C1B4404BC005D7932 /* CoreData.framework */,
+				3A5CD205C89AA4D367571115 /* libPods-CampusLife.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D0957481B440698005D7932 /* HomeClass */ = {
+			isa = PBXGroup;
+			children = (
+				3D0957921B444AFC005D7932 /* PostTableViewCell.h */,
+				3D0957931B444AFC005D7932 /* PostTableViewCell.m */,
+				3D0957381B4401D0005D7932 /* HomeViewController.h */,
+				3D0957391B4401D0005D7932 /* HomeViewController.m */,
+				3D0957871B44488F005D7932 /* Post.h */,
+				3D0957881B44488F005D7932 /* Post.m */,
+				3D0957891B44488F005D7932 /* User.h */,
+				3D09578A1B44488F005D7932 /* User.m */,
+			);
+			name = HomeClass;
+			sourceTree = "<group>";
+		};
+		3D09578D1B444973005D7932 /* Networking Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3D09578E1B44497D005D7932 /* AFAppDotNetAPIClient.h */,
+				3D09578F1B44497D005D7932 /* AFAppDotNetAPIClient.m */,
+			);
+			name = "Networking Extensions";
+			sourceTree = "<group>";
+		};
+		3D0957951B444CA2005D7932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D09570A1B43F8D5005D7932 /* AppDelegate.h */,
+				3D09570B1B43F8D5005D7932 /* AppDelegate.m */,
+				3D09570D1B43F8D5005D7932 /* ViewController.h */,
+				3D09570E1B43F8D5005D7932 /* ViewController.m */,
+				3D0957131B43F8D6005D7932 /* Images.xcassets */,
+				3D0957151B43F8D6005D7932 /* LaunchScreen.xib */,
 				3D0957081B43F8D5005D7932 /* main.m */,
+				3D0957071B43F8D5005D7932 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3D09571F1B43F8D6005D7932 /* CampusLifeTests */ = {
+		7FE3201FCC395A58F2B3B6D5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D0957221B43F8D6005D7932 /* CampusLifeTests.m */,
-				3D0957201B43F8D6005D7932 /* Supporting Files */,
+				8FE67A05AAC3C426809D7203 /* Pods-CampusLife.debug.xcconfig */,
+				18D10ADD4332FB4432686707 /* Pods-CampusLife.release.xcconfig */,
 			);
-			path = CampusLifeTests;
-			sourceTree = "<group>";
-		};
-		3D0957201B43F8D6005D7932 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D0957211B43F8D6005D7932 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0957261B43F8D6005D7932 /* Build configuration list for PBXNativeTarget "CampusLife" */;
 			buildPhases = (
+				0479DA44F7D1511C68011294 /* Check Pods Manifest.lock */,
 				3D0956FF1B43F8D5005D7932 /* Sources */,
 				3D0957001B43F8D5005D7932 /* Frameworks */,
 				3D0957011B43F8D5005D7932 /* Resources */,
+				72DC8B34C897D7C7354E8BCD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +210,6 @@
 			productName = CampusLife;
 			productReference = 3D0957031B43F8D5005D7932 /* CampusLife.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3D09571B1B43F8D6005D7932 /* CampusLifeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D0957291B43F8D6005D7932 /* Build configuration list for PBXNativeTarget "CampusLifeTests" */;
-			buildPhases = (
-				3D0957181B43F8D6005D7932 /* Sources */,
-				3D0957191B43F8D6005D7932 /* Frameworks */,
-				3D09571A1B43F8D6005D7932 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D09571E1B43F8D6005D7932 /* PBXTargetDependency */,
-			);
-			name = CampusLifeTests;
-			productName = CampusLifeTests;
-			productReference = 3D09571C1B43F8D6005D7932 /* CampusLifeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +222,6 @@
 				TargetAttributes = {
 					3D0957021B43F8D5005D7932 = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					3D09571B1B43F8D6005D7932 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 3D0957021B43F8D5005D7932;
 					};
 				};
 			};
@@ -189,7 +239,6 @@
 			projectRoot = "";
 			targets = (
 				3D0957021B43F8D5005D7932 /* CampusLife */,
-				3D09571B1B43F8D6005D7932 /* CampusLifeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,49 +248,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D09579A1B44C410005D7932 /* Icon.png in Resources */,
+				3D09579D1B44C410005D7932 /* profile-image-placeholder@2x.png in Resources */,
+				3D09579C1B44C410005D7932 /* profile-image-placeholder.png in Resources */,
+				3D0957311B43FC3C005D7932 /* new.png in Resources */,
+				3D09579B1B44C410005D7932 /* Icon@2x.png in Resources */,
+				3D0957301B43FC3C005D7932 /* home.png in Resources */,
 				3D0957121B43F8D5005D7932 /* Main.storyboard in Resources */,
 				3D0957171B43F8D6005D7932 /* LaunchScreen.xib in Resources */,
 				3D0957141B43F8D6005D7932 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D09571A1B43F8D6005D7932 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0479DA44F7D1511C68011294 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		72DC8B34C897D7C7354E8BCD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CampusLife/Pods-CampusLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D0956FF1B43F8D5005D7932 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0957901B44497D005D7932 /* AFAppDotNetAPIClient.m in Sources */,
+				3D0957941B444AFC005D7932 /* PostTableViewCell.m in Sources */,
 				3D09570F1B43F8D5005D7932 /* ViewController.m in Sources */,
+				3D09578C1B44488F005D7932 /* User.m in Sources */,
+				3D09578B1B44488F005D7932 /* Post.m in Sources */,
 				3D09570C1B43F8D5005D7932 /* AppDelegate.m in Sources */,
 				3D0957091B43F8D5005D7932 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D0957181B43F8D6005D7932 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D0957231B43F8D6005D7932 /* CampusLifeTests.m in Sources */,
+				3D09573A1B4401D0005D7932 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3D09571E1B43F8D6005D7932 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D0957021B43F8D5005D7932 /* CampusLife */;
-			targetProxy = 3D09571D1B43F8D6005D7932 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3D0957101B43F8D5005D7932 /* Main.storyboard */ = {
@@ -345,6 +415,7 @@
 		};
 		3D0957271B43F8D6005D7932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE67A05AAC3C426809D7203 /* Pods-CampusLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CampusLife/Info.plist;
@@ -355,45 +426,12 @@
 		};
 		3D0957281B43F8D6005D7932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D10ADD4332FB4432686707 /* Pods-CampusLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CampusLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3D09572A1B43F8D6005D7932 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CampusLifeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusLife.app/CampusLife";
-			};
-			name = Debug;
-		};
-		3D09572B1B43F8D6005D7932 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CampusLifeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampusLife.app/CampusLife";
 			};
 			name = Release;
 		};
@@ -416,14 +454,7 @@
 				3D0957281B43F8D6005D7932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		3D0957291B43F8D6005D7932 /* Build configuration list for PBXNativeTarget "CampusLifeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D09572A1B43F8D6005D7932 /* Debug */,
-				3D09572B1B43F8D6005D7932 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

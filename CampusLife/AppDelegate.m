@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+//    UINavigationController *navigationController = [tabBarController viewControllers][0];
+//    HomeViewController *playersViewController = [navigationController viewControllers][0];
+//    playersViewController.players = _players;
     return YES;
 }
 
